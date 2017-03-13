@@ -1,4 +1,7 @@
 #!/bin/bash
+# This file goal is to delete all the files send to transifex (to avoid doing it by hand)
+# it won't be on the final release
+
 
 ## used commandes
 # tx delete -r <project_slug>.<resource_slug>
