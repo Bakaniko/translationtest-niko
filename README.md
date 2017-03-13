@@ -3,6 +3,12 @@ Work on the structure of the OSGeo-live files to provide a worflow for raw rst f
 
 Currently using a test project:
 
+* root: all the files at the root of the project, who aren't translated (index.rst)
+* images: the images
+* themes: theme used
+* source: the 'en' folder from the old configuration (the one to translate)
+* .tx: config files for transifex client
+
 https://www.transifex.com/bakanikos-lab/test_osgeolive/dashboard/
 
 
@@ -14,6 +20,9 @@ This is inspired by the process used by [Richard Duivenvoorde](https://github.co
 * [transifex client](https://docs.transifex.com/client/introduction)
 
 * gettext
+
+## files structure
+
 
 ## config files
 * conf.py (in the source folder) : main config file, used by sphinx
